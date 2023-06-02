@@ -107,12 +107,6 @@ papertitle {
   font-weight: 700
 }
 
-companyname {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-}
-
 name {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
@@ -122,21 +116,6 @@ name {
   width: 160px;
   height: 160px;
   position: relative;
-}
-
-.two {
-  width: 160px;
-  height: 160px;
-  position: absolute;
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
-}
-
-.fade {
-  transition: opacity .2s ease-in-out;
-  -moz-transition: opacity .2s ease-in-out;
-  -webkit-transition: opacity .2s ease-in-out;
 }
 
 span.highlight {
