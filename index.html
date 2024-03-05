@@ -78,19 +78,22 @@
                                     <p>
                                         UIUC Computer Vision Group, with Jiahua Dong and advised by Prof. Yuxiong
                                         Wang
-                                        <br><br>
+                                        <br>
                                     <ul>
-                                        <li>Experimenting with diffusion-based video generation and video editing models
-                                            to simulate videos of potential Parkinson's progression in
-                                            individuals' faces, as part of the multimodal few-shot learning for
-                                            Parkinson's detection project</li>
-                                        <li>Fine-tuned Stable Diffusion with LORA, conducted ablation studies, and
-                                            improved the self-attention and guided latent
-                                            update mechanisms to enhance the simulated video's quality and temporal
-                                            consistency between frames</li>
-                                        <li>Previously, researched ways to evaluate neural network robustness to common
-                                            image corruptions and perturbations, more specifically performance of
-                                            classification models on unlabeled out-of-distribution data</li>
+                                        <li>Utilizing Stable Diffusion and ControlNet-based techniques to explore video
+                                            editing and generation methods, simulating the progression of potential
+                                            Parkinson's disease in the facial expressions of healthy individuals</li>
+                                        <li>Conducted ablation studies to enhance the quality and temporal consistency
+                                            between frames of simulated videos by improving self-attention and guided
+                                            latent update mechanisms</li>
+                                        <li>Developed a tool utilizing MediaPipe face landmarks and OpenCV to automate
+                                            mask creation for diffusion inpainting to edit faces. Generated an augmented
+                                            dataset of faces with Parkinson's symptoms to test our classification
+                                            robustness</li>
+                                        <li>Previously, conducted research on methods for assessing the robustness of
+                                            neural networks to common image corruptions and perturbations, focusing on
+                                            the performance of classification models with unlabeled out-of-distribution
+                                            data</li>
                                     </ul>
                                     </p>
                                     <br><br>
@@ -110,29 +113,27 @@
                                     </div>
                                 </td>
                                 <td style="padding:20px;width:75%;vertical-align:middle">
-                                    <b> Research Project Member (external) </b> &emsp; Jun 2023 - present
+                                    <b> Research Project Member (external) </b> &emsp; Jun 2023 - Jan 2024
                                     <p>
                                         Google, with Junyi Zhang and advised by Prof. Ming-Hsuan Yang
                                         <br>
                                     <ul>
-                                        <li>Extracted features from the new Stable Diffusion XL model to learn about its
-                                            internal representation and geometric understanding of images to improve
-                                            semantic correspondence capabilities
-                                        </li>
-                                        <li>Integrated Stable Diffusion XL architecture into existing SD-DINO project
-                                            code as well as several competing semantic correspondence baseline methods
-                                            which all used Stable Diffusion 1.5</li>
-                                        <li>Helping run experiments to train the Stable Diffusion XL versions of the
-                                            competing baseline models and evaluate their Percentage of Correct Keypoints
-                                            (PCK) performance across the categories of the SPair-71k dataset
-                                        </li>
+                                        <li>Extracted features from Stable Diffusion XL model to enhance understanding
+                                            of its internal representations and geometric aspects of images, improving
+                                            semantic correspondence capabilities</li>
+                                        <li>Implemented Stable Diffusion XL architecture into the existing SD-DINO
+                                            project code, alongside various competing semantic correspondence baseline
+                                            methods which all utilizing Stable Diffusion 1.5</li>
+                                        <li>Assisted in conducting experiments to train the Stable Diffusion XL versions
+                                            of competing baseline models and assess their performance metrics (PCK)
+                                            across categories within the SPair-71k dataset</li>
                                     </ul>
 
+                                    <u>Publication:</u> <br>
                                     Junyi Zhang, Charles Herrmann, Junhwa Hur, <b>Eric Chen</b>, Varun Jampani, Deqing
                                     Sun, Ming-Hsuan Yang.
                                     Telling Left from Right: Identifying Geometry-Aware Semantic Correspondence.
-                                    Under review, <i>Conference on Computer Vision and Pattern Recognition (CVPR)
-                                        2024.</i>
+                                    <i>Conference on Computer Vision and Pattern Recognition (CVPR) 2024.</i>
                                     <a href="https://telling-left-from-right.github.io/">Project Page</a>,
                                     <a href="https://arxiv.org/abs/2311.17034">Arxiv</a>
                                     </p>
@@ -164,24 +165,23 @@
                                         Aug 2023 - Dec 2023:
                                     <ul>
                                         <li>Created a Llama 2 autonomous agent to perform intelligent content extraction
-                                            from webpages and generate citation-aware
-                                            summaries. Created a custom benchmark dataset to evaluate extraction
-                                            performance</li>
+                                            from webpages and generate citation-aware summaries. Created a custom
+                                            benchmark dataset to evaluate extraction performance</li>
                                         <li>Developed web page text density measure and learned a regression model to
-                                            determine
-                                            if a page contains mainly textual or tabular content</li>
+                                            determine if a page contains mainly textual or tabular content</li>
                                         <li>Experimented with fine-tuning and instruction-tuned LLMs and prompt
                                             engineering techniques from recent state-of-the-art methods</li>
                                     </ul>
                                     May 2022 - July 2023:
                                     <ul>
-                                        <li>Fine-tuned pretrained BERT base model for multi-class classification,
-                                            incorporating uncertainty sampling in active-learning, text data
-                                            augmentation techniques, and hyperparameter tuning to improve accuracy</li>
-                                        <li>Developed a web page content extractor using the Google Custom Search API,
+                                        <li>Fine-tuned a pretrained BERT model for multi-class classification,
+                                            integrating uncertainty sampling in active learning, text data augmentation
+                                            techniques, and hyperparameter tuning to significantly enhance accuracy</li>
+                                        <li>Developed a web page content extractor tool using the Google Custom Search
+                                            API,
                                             BeautifulSoup, and Selenium to create a custom dataset of over 2500 labeled
                                             paragraphs in the university domain for classification</li>
-                                        <li>Developed a web application with Flask, SQLite, and summarization models to
+                                        <li>Developed a web application with Flask, SQLite, and BART summarization to
                                             automatically generate concise wiki pages for university departments,
                                             including information such as majors, faculty, research areas, and student
                                             organizations</li>
@@ -214,14 +214,14 @@
                                     2021
                                     <br>
                                     <ul>
-                                        <li>Created an internal web application with React and Flask for the user to
-                                            input initial parameter values for a Markov
-                                            health state transition model, storing the parameters in a MongoDB database
-                                        </li>
-                                        <li>Used Python to parse the JSON model parameters from the database and
-                                            automatically generate Markov model cell
-                                            formulas for MS Excel sheets to quantify and visualize the company’s
-                                            expected health impacts and costs of drugs</li>
+                                        <li>Developed an internal web application using React and Flask, allowing users
+                                            to input initial parameter values for a Markov health state transition
+                                            model. Implemented storage of parameters in a MongoDB database for efficient
+                                            data management</li>
+                                        <li>Utilized Python to parse JSON model parameters from the database and
+                                            automate the generation of Markov model cell formulas for MS Excel sheets,
+                                            quantifying and visualizing the company’s anticipated health impacts and
+                                            drug costs</li>
                                     </ul>
                                 </td>
                             </tr>
@@ -247,11 +247,8 @@
                         <tbody>
 
                             <tr>
-                                <td style="padding:20px;width:25%;vertical-align:middle">
-                                    <div class="one">
-                                        <img src='images/nst2.png' width="180">
-                                    </div>
-                                </td>
+                                <td style="padding:20px;width:25%;vertical-align:top"><img src="images/nst2.png"
+                                        width="180"><img src="images/nst.png" width="180"></td>
                                 <td style="padding:20px;width:75%;vertical-align:middle">
                                     <b> Neural Style Transfer </b>
                                     <p>
